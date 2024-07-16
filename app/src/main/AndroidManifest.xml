@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sagarkhurana.quizforfun">
+    package="com.vaibhav.quizforfun">
 
     <application
         android:allowBackup="true"
@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizForFun">
-        <activity android:name=".GeographyOrLiteratureQuizActivity"></activity>
-        <activity android:name=".FinalResultActivity" />
-        <activity android:name=".MathQuizActivity" />
-        <activity android:name=".EditPasswordActivity" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".RuleActivity" />
-        <activity android:name=".QuizOptionActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name="com.vaibhav.quizforfun.GeographyOrLiteratureQuizActivity"></activity>
+        <activity android:name="com.vaibhav.quizforfun.FinalResultActivity" />
+        <activity android:name="com.vaibhav.quizforfun.MathQuizActivity" />
+        <activity android:name="com.vaibhav.quizforfun.EditPasswordActivity" />
+        <activity android:name="com.vaibhav.quizforfun.HistoryActivity" />
+        <activity android:name="com.vaibhav.quizforfun.RuleActivity" />
+        <activity android:name="com.vaibhav.quizforfun.QuizOptionActivity" />
+        <activity android:name="com.vaibhav.quizforfun.RegisterActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.vaibhav.quizforfun.LoginActivity"
             android:theme="@style/splashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.vaibhav.quizforfun.MainActivity" />
     </application>
 
 </manifest>
